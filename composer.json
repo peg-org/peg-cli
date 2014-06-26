@@ -8,14 +8,14 @@
             "email": "auroraeosrose@gmail.com"
         },
         {
-            "name": "Jefferson González",        }
+            "name": "Jefferson GonzÃ¡lez"
+        }
     ],
     "require": {
         "php" : ">=5.4.0",
-        "symfony/console": "2.*"
+        "symfony/console": "2.*",
         "peg-org/peg-cli": "dev-master"
     },
-    }
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
     },
