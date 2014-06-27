@@ -14,7 +14,7 @@ use Peg\Cli\Commands\ConfigTools;
 use Peg\Cli\Commands\Generate;
 use Peg\Cli\Commands\Scanner;
  
-$console = new Application();
+$console = new Application('PHP Extension Generator', 'dev');
 
 $console->add(new Test);
 $console->add(new Init);

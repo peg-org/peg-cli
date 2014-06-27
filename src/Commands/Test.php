@@ -29,7 +29,7 @@ class Test extends Command
         if ($text) {
             $output->writeln($text);
         } else {
-            $output->writeln('yo')
+            $output->writeln('yo');
         }
     }
 }

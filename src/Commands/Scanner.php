@@ -2,7 +2,7 @@
 
 namespace Peg\Cli\Commands;
 
-use Symfony\Component\Console\Command\Command;
+use Peg\Cli\Commands\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -12,10 +12,10 @@ class Scanner extends Command
 {
     protected function configure()
     {
-        $this
-            ->setName('scanner')
-            ->setDescription('scanner')
-        ;
+        $this->setName('scanner');
+        $this->setDescription('scanner');
+        
+        parent::configure();
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)

@@ -2,7 +2,7 @@
 
 namespace Peg\Cli\Commands;
 
-use Symfony\Component\Console\Command\Command;
+use Peg\Cli\Commands\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -12,9 +12,10 @@ class Generate extends Command
 {
     protected function configure()
     {
-        $this
-            ->setName('generate')
-            ->setDescription('generate')
+        $this->setName('generate');
+        $this->setDescription('generate');
+        
+        parent::configure();
         ;
     }
 
